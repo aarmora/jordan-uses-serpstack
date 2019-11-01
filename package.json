@@ -1,0 +1,29 @@
+{
+	"name": "jordan-uses-serpstack",
+	"version": "1.0.0",
+	"description": "Jordan gives serpstack a spin. serpstack returns search engine results in an easy to use API.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"keywords": [
+		"serpstack",
+		"javascript",
+		"typescript",
+		"axios"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"cheerio": "^1.0.0-rc.3",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/cheerio": "^0.22.13",
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^12.12.3",
+		"typescript": "^3.6.4"
+	}
+}
